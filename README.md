@@ -62,6 +62,7 @@ During model training, 10 models was selected for baseline training as per below
    * Histogram Gradient Boosting
    * Elastic Net
    * K Neighbors 
+
 Based on baseline model results, Random Forests and ExtraTrees with the lowest values of MAE was chosen for hyperparameter optimizations optimized to improve the metric results.
 Results: The best model performance is Extra Tree Regressor because it has the lowest average discrepancy between actual and predicted value. Compared to other models which do not have improvement after tuning. Extra Tree Regressor can forecast the compensation with mean absolute percentage error (MAPE) of 0.67% which are a very good results with a lower error rate.
 
