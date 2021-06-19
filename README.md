@@ -51,7 +51,7 @@ Attached [Feature Listing] for the features in this [Dataset]
     * Job Family - Revenue
 
 ## Conclusion
-During model building,Random Forests, XGBoost, AdaBoost, ExtraTress, DecisionTrees, Linear Regression, Gradient Boosting, Histogram Gradient Boosting, Elastic Net and K Neighbors like using machine learning models mean absolute error was calculated. Later Random Forests, and Extra Tree hyperparameter optimizations optimized to improve the metric results.
+During model building,Random Forests, XGBoost, AdaBoost, ExtraTress, DecisionTrees, Linear Regression, Gradient Boosting, Histogram Gradient Boosting, Elastic Net and K Neighbors were used for machine learning models baseline training and mean absolute error was calculated. Later Random Forests, and Extra Tree hyperparameter optimizations optimized to improve the metric results.
 Results: The best model performance is Extra Tree Regressor because it has the lowest average discrepancy between actual and predicted value. Compared to other models which do not have improvement after tuning. Extra Tree Regressor can forecast the compensation with mean absolute percentage error (MAPE) of 0.67% which are a very good results with a lower error rate.
 
 The prediction model is able to help The San Francisco Controller's Office to have better planning of their budget and resources to help prevent under or over estimations and maintain a stable calculation through the years to come. It can also help the city to request more manpower cost if they know in advance. 
